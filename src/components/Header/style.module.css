@@ -1,0 +1,17 @@
+.header {
+  background-color: rgb(11, 11, 67);
+  padding: 20px;
+  text-align: center;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.header .active {
+  color: rgb(230, 211, 1);
+}

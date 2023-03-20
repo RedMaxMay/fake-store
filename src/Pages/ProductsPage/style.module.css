@@ -1,0 +1,49 @@
+.products {
+  display: grid;
+  gap: 20px;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 30px;
+}
+
+.products_categories {
+  grid-column: 1/-1;
+  justify-self: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products_categories a {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
+  color: #333;
+  font-size: 0.75rem;
+  text-decoration: none;
+}
+
+.products_categories a:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+.products h1 {
+  grid-column: 1/-1;
+  justify-self: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+.products_categories a:hover {
+  background-color: rgb(11, 11, 67);
+  color: #fff;
+}
+
+.products_categories .active {
+  background-color: rgb(11, 11, 67);
+  color: #fff;
+}
