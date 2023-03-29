@@ -1,3 +1,9 @@
+.wrap {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
 .product {
   background-color: rgb(242, 242, 255);
   padding: 20px;
@@ -40,15 +46,19 @@
   margin-bottom: 10px;
   word-wrap: break-word;
   font-size: 0.75rem;
+  padding-top: 20px;
 }
 
 .product_category {
   text-decoration: underline;
 }
 
-.product_btn {
+.product_btn,
+.product_link_btn {
+  width: 200px;
+  height: 40px;
   padding: 10px 30px;
-  margin: 20px;
+  margin-top: 20px;
   border-radius: 5px;
   border: none;
   background-color: rgb(11, 11, 67);
@@ -58,4 +68,13 @@
 
 .product_btn:hover {
   background-color: rgb(36, 36, 109);
+}
+
+.product_link_btn {
+  text-decoration: none;
+  background-color: rgb(26, 107, 25);
+}
+
+.product_link_btn:hover {
+  background-color: rgb(43, 135, 42);
 }

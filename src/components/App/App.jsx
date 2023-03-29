@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import BasketPage from "../../Pages/BasketPage/BasketPage";
 import CategoriesPage from "../../Pages/CategoriesPage/CategoriesPage";
 import NotFoundPage from "../../Pages/NotFoundPage/NotFoundPage";
+import OneProductPage from "../../Pages/OneProductPage/OneProductPage";
 import ProductsPage from "../../Pages/ProductsPage/ProductsPage";
 import { asyncLoadCategoriesAction } from "../../store/asyncAction/categories";
 import { asyncLoadProductsAction } from "../../store/asyncAction/products";
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<CategoriesPage />} />
         <Route path="/basket" element={<BasketPage />} />
+        <Route path="/product/:id" element={<OneProductPage />} />
         <Route path="/products/:category" element={<ProductsPage />} />
         <Route path="/products/all" element={<ProductsPage />} />
         <Route path="/*" element={<NotFoundPage />} />

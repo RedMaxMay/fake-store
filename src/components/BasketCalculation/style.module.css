@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #f2f2f2;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container p {
+  margin: 15px;
+  font-weight: 800;
+}
+
+.del_btn {
+  width: 200px;
+  height: 40px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 15px;
+  border: none;
+  background-color: rgb(174, 57, 57);
+  color: #fff;
+  cursor: pointer;
+}
+
+.del_btn:hover {
+  background-color: rgb(146, 43, 43);
+}

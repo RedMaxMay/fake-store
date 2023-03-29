@@ -8,6 +8,12 @@
   padding: 0 30px;
 }
 
+.filter {
+  grid-column: 1/-1;
+  justify-self: center;
+
+}
+
 .products_categories {
   grid-column: 1/-1;
   justify-self: center;
@@ -15,6 +21,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.pagination {
+  grid-column: 1/-1;
+  justify-self: center;
+  padding: 10px;
 }
 
 .products_categories a {
